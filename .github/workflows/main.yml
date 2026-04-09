@@ -24,7 +24,7 @@ jobs:
         run: echo "This is my build file" > output.txt
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: my-artifact
           path: output.txt
